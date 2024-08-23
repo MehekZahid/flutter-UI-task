@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screen.dart';
 
 class Screen3 extends StatelessWidget {
   const Screen3({super.key});
@@ -15,7 +16,7 @@ class Screen3 extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return Screen3();
+                  return Screen();
                 }));
               },
               child: Container(
@@ -77,7 +78,7 @@ class Screen3 extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return Screen3();
+                  return Screen();
                 }));
               },
               child: Container(
@@ -139,7 +140,7 @@ class Screen3 extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return Screen3();
+                  return Screen();
                 }));
               },
               child: Container(
