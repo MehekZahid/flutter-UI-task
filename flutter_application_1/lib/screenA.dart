@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/task22.dart';
+import 'package:flutter_application_1/screenB.dart';
 
 class ScreenA extends StatefulWidget {
   const ScreenA({super.key});
@@ -51,7 +51,10 @@ class _ScreenAState extends State<ScreenA> {
                     child: Icon(Icons.arrow_back_ios),
                   )),
                 ),
-                Text('Shopping'),
+                Text(
+                  'Shopping',
+                  style: TextStyle(fontSize: 20),
+                ),
                 Container(
                   height: 20,
                   width: 20,
@@ -98,7 +101,7 @@ class _ScreenAState extends State<ScreenA> {
                                             BoxShadow(
                                                 color: Colors.grey,
                                                 blurRadius: 1,
-                                                spreadRadius: 1.5)
+                                                spreadRadius: 2)
                                           ]),
                                       child: Icon(
                                         Icons.favorite_rounded,

@@ -14,7 +14,7 @@ class Task17 extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(3.0),
               child: GridView.builder(
-                itemCount: 102,
+                itemCount: 500,
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
                   crossAxisSpacing: 2.0,

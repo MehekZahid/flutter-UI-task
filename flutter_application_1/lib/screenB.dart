@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, prefer_typing_uninitialized_variables
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/task23.dart';
+import 'package:flutter_application_1/screenC.dart';
 
 class ScreenB extends StatefulWidget {
   const ScreenB({super.key, this.images, this.prices});
@@ -67,11 +67,11 @@ class _ScreenBState extends State<ScreenB> {
             ),
             SizedBox(height: 50),
             Container(
-              height: 350,
+              height: 400,
               width: 300,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                border: Border.all(color: Colors.red.withOpacity(.2)),
+                border: Border.all(color: Colors.grey, width: 2.0),
               ),
               child: Column(
                 children: [
@@ -80,21 +80,22 @@ class _ScreenBState extends State<ScreenB> {
                     'T-shirt shop',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      fontSize: 30,
                     ),
                   ),
-                  SizedBox(height: 15),
+                  SizedBox(height: 20),
                   Image.asset(
                     widget.images,
                     height: 250,
                     width: 200,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 10),
+                  SizedBox(height: 15),
                   Text(
                     '${widget.prices}',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 20,
+                      fontSize: 30,
                     ),
                   ),
                 ],
@@ -102,15 +103,20 @@ class _ScreenBState extends State<ScreenB> {
             ),
             SizedBox(height: 20),
             Container(
-              height: 40,
+              height: 50,
               width: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(
-                  color: Colors.red.withOpacity(.2),
+                  color: Colors.grey,
+                  width: 1,
                 ),
               ),
-              child: Center(child: Text('Sized')),
+              child: Center(
+                  child: Text(
+                'Sized',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+              )),
             ),
             SizedBox(height: 30),
             Row(
@@ -132,7 +138,11 @@ class _ScreenBState extends State<ScreenB> {
                                 blurRadius: 1,
                                 spreadRadius: 1.5)
                           ]),
-                      child: Center(child: Text('42'))),
+                      child: Center(
+                          child: Text(
+                        '42',
+                        style: TextStyle(fontWeight: FontWeight.w400),
+                      ))),
                 ),
                 SizedBox(width: 15),
                 GestureDetector(
@@ -208,7 +218,7 @@ class _ScreenBState extends State<ScreenB> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color:
-                        const Color.fromARGB(255, 165, 28, 19).withOpacity(.8)),
+                        const Color.fromARGB(255, 186, 37, 26).withOpacity(.8)),
                 child: Center(
                   child: Text(
                     'Buy Now',

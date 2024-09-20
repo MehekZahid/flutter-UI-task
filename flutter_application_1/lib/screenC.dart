@@ -18,7 +18,7 @@ class ScreenC extends StatelessWidget {
             height: 120,
           ),
           SizedBox(
-            height: 8,
+            height: 12,
           ),
           Container(
             height: 70,
@@ -92,7 +92,7 @@ class ScreenC extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 25,
+            height: 40,
           ),
           Container(
             height: 50,

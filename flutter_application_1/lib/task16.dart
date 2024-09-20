@@ -20,7 +20,7 @@ class _Task16State extends State<Task16> {
           "MyRecipes",
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 20,
+            fontSize: 30,
             color: Colors.white,
           ),
         ),
