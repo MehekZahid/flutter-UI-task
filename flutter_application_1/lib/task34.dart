@@ -25,7 +25,7 @@ class _Task34State extends State<Task34> {
                 Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('assets/images/summer.jpg'),
+                      image: AssetImage('assets/images/winter2.jpg'),
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -33,7 +33,7 @@ class _Task34State extends State<Task34> {
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(6),
-                    color: Colors.purple.withOpacity(0.5),
+                    color: Colors.pink.withOpacity(0.5),
                   ),
                 ),
                 Padding(
